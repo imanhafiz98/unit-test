@@ -35,8 +35,3 @@ Route::middleware(['auth', 'can:user-views'])->group(function(){
 
 });
 
-Route::middleware(['auth', 'can:admin-views'])->group(function(){
-
-
-
-});
